@@ -46,15 +46,15 @@ import sys
 
 # EDIT THESE VARIABLES
 NUM_GRADES_TO_DROP = 2 # how many homework grades should we forgive?
-HW_WEIGHT = 0.8        # percent weight for hw
-EXAM_WEIGHT = 0.2      # percent weight for exam
+HW_WEIGHT = 0.7        # percent weight for hw
+EXAM_WEIGHT = 0.3      # percent weight for exam
 HW_COLUMN_NAME_REGEX = "homework|assignment|extra"  # what did you name the homeworks in blackboard? Use this regex to extract them
 EXTRA_CREDIT_COL_NAME_REGEX = "extra"               # what did you name extra credits in blackboard? Use this regex to extract them
 EXAM_COL_NAME_REGEX = "exam"                        # what did you name exams in blackboard?
 # DO NOT EDIT BELOW UNLESS YOURE SURE
 
 
-A_CUTOFF =       3.9 * 25 # NJCU Says you get an A for a 4.0 but I have some students with 3.95 who were very good. I think they get A.
+A_CUTOFF =       4.0 * 25
 A_MINUS_CUTOFF = 3.7 * 25
 B_PLUS_CUTOFF =  3.3 * 25
 B_CUTOFF =       3.0 * 25
